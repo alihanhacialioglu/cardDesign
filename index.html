@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+<div class="clicks">
+<div class="kayaking-click">
+    <button class="kayaking-button" onclick="turnKayaking('card-part1','card-part2','sport-image')">Kayaking</button></div> 
+<div class="camping-click">
+    <button class="camping-button" onclick="turnCamping()">Camping</button>
+</div>
+</div>    
+     
+<div class="cards">
+    <div class="card-part-one" id="card-part1">
+        <div class="background-image"><image class="sea-image" src="images/deniz.png"></image>
+            <div class="sport-image" ><image class="kano-image" id="kano-image" src="images/kano.png"></image></div>
+        </div>
+        <div class="sport">
+            <div class="sport-text">Kayaking</div>
+            <div class="text-background-color-blue"></div>                
+        </div>        
+        <div class="price"><sup class="sup">$</sup>39 / 4<sup class="sup">hrs</sup>
+            <div class="name">per person</div>
+        </div>
+        <div class="location"><image class="location-image" src="images/konum.png" ></image></div>
+        <div class="location-name">Turkey, Trabzon</div>
+        <div class="button"><button class="button1">Chose Date</button></div>
+    </div>
+
+    <div class="card-part-two" id="card-part2">
+        <div class="background-image2"><image class="grass-image" src="images/cimen.png"></image>
+            <div class="sport-image2"><image class="tent-image" id="tent-image" src="images/cadir.png"></image></div>
+        </div>
+        <div class="sport">
+            <div class="sport-text">Camping</div>
+            <div class="text-background-color-green"></div>                
+        </div>        
+        <div class="price"><sup class="sup">$</sup>29 / 8<sup class="sup">hrs</sup>
+            <div class="name">per person</div>
+        </div>
+        <div class="location"><image class="location-image" src="images/konum.png" ></image></div>
+        <div class="location-name">Turkey, Izmir</div>
+        <div class="button"><button class="button2">Chose Date</button></div>
+    </div>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
